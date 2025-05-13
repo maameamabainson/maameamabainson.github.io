@@ -1,0 +1,67 @@
+# Site settings
+name: Maame Ama Bainson
+title: Maame Ama Bainson
+
+# Short bio or description
+description: PhD student in Mathematical Modelling, Analysis, and Computation at the Maxwell Institute for Mathematical Sciences, a joint centre between the University of Edinburgh and Heriot-Watt University
+
+# Long description for SEO
+long_description: >-
+  Maame Ama Bainson is a PhD student in Mathematical Modelling, Analysis, and Computation at the Maxwell Institute for Mathematical Sciences,
+  a joint research institute between the University of Edinburgh and Heriot-Watt University. Working under the supervision of Prof. Damian Clancy,
+  her research focuses on stochastic processes and their applications to disease dynamics, particularly in understanding endemic disease persistence
+  through probabilistic methods and mathematical analysis. She holds an MSc in Mathematical Sciences from AIMS Ghana.
+
+# Academic information
+academic_status: PhD Student
+institution: Maxwell Institute for Mathematical Sciences
+department: Mathematical Modelling, Analysis, and Computation
+affiliations: [University of Edinburgh, Heriot-Watt University]
+research_areas: [Stochastic Processes, Applied Mathematics, Computational Modelling, Epidemiology]
+
+# URL of your avatar or profile pic
+avatar: images/avatar.jpeg
+
+# Social links
+footer-links:
+  email: M.A.Bainson@sms.ed.ac.uk
+  github: maameamabainson
+  linkedin: https://www.linkedin.com/in/maame-ama-bainson/
+  # scholar: 
+
+# Your website URL
+url: "https://maameamabainson.github.io"
+baseurl: ""
+
+# Permalink structure
+permalink: /:title/
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+# Set the Sass partials directory
+sass:
+  style: :compressed
+
+# Use plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - command.txt
+  - todo.txt
+  - _temp/
+  - _make_thumbnails.sh
+  - make_thumbnails.py
+  - .gitignore

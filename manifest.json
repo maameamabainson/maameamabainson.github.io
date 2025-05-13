@@ -1,0 +1,21 @@
+{
+  "name": "Maame Ama Bainson | Researcher",
+  "short_name": "Maame Ama Bainson",
+  "description": "Academic site for Maame Ama Bainson - PhD student in Mathematical Modelling, Analysis, and Computation at the Maxwell Institute for Mathematical Sciences, a joint centre between the University of Edinburgh and Heriot-Watt University.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#8d1b3d",
+  "icons": [
+    {
+      "src": "/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
